@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustoso</title>
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Playfair+Display:wght@700&display=swap&_v=20230209125551" rel="stylesheet">
+
+    <!-- BOOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css?_v=20230209125551" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- ICON -->
+    <link rel="shortcut icon" type="image/png" href="img/icon.png">
+
+     <!-- STYLE CSS -->
+     <link rel="stylesheet" href="css/style.min.css?_v=20230209125551">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="row header__top">
+                <div class="col-2">
+                    <div class="logo logo--white">Gustoso</div>
+                </div>
+                <div class="col-lg-8 col-10 header__navigation">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid header__navigation-container">
+                          <button class="navbar-toggler header__navigation-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 header__nav">
+                              <li class="nav-item header__item">
+                                <a class="nav-link header__link" href="#">Welcome</a>
+                              </li>
+                              <li class="nav-item header__item">
+                                <a class="nav-link header__link" href="#">Menu</a>
+                              </li>
+                              <li class="nav-item header__item">
+                                <a class="nav-link header__link" href="#">Reservations</a>
+                              </li>
+                              <li class="nav-item header__item">
+                                <a class="nav-link header__link" href="#">News</a>
+                              </li>
+                              <li class="nav-item header__item">
+                                <a class="nav-link header__link" href="#">Contact</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-2">
+                    <div class="header__social">
+                        <a href="#" class="header__link header__link--social"><i class="fa fa-brands fa-twitter"></i></a>
+                        <a href="#" class="header__link header__link--social"><i class="fa fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="header__link header__link--social"><i class="fa fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row header__bottom">
+                <div class="col-12">
+                        <h1 class="heading-1 header__heading">Pastry with love</h1>
+                        <p class="header__text">We're bringing you fresh ingredients every</p>
+                        <p class="header__text">day in ways you can't resist.</p>
+                        <button type="button" class="button-dark header__button">Our menu</button>
+                </div>
+                <img src="img/header-dec.png" alt="header img decor" class="header__img-decor">
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION ART -->
+    <section class="art">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 art__left">
+                    <h3 class="heading-3">Art of cakes</h3>
+                    <div class="art__sub-heading">We create delicious memories</div>
+                    <p class="art__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos porro est architecto voluptatibus voluptas ab tenetur blanditiis placeat asperiores praesentium molestias alias adipisci ea, commodi labore esse repellendus quas laudantium unde, quis suscipit omnis.
+                    </p>
+                    <div class="chef-card">
+                        <div class="chef-card__heading">Chef Cook</div>
+                        <div class="chef-card__content">
+                            <div class="chef-card__name" id="chef-1">Benito</div>
+                            <img src="img/chef-1.png" id="chef-img-1" alt="Chef img 1" class="chef-card__image chef-card__image--visible">
+                            <img src="img/chef-2.png" id="chef-img-2" alt="Chef img 2" class="chef-card__image chef-card__image--invisible">
+                            <div class="chef-card__name" id="chef-2">Gaspare</div>
+                        </div>
+                        <div id="chef-quote-1" class="chef-card__quote chef-card__quote--visible">
+                            <span>Unique creations for unique</span><span>occasions.</span>
+                        </div>
+                        <div id="chef-quote-2" class="chef-card__quote chef-card__quote--invisible">
+                            <span>People who love to eat are <span><span>always the best people.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 art__right">
+                    <div class="art__img-composition">
+                        <img src="img/img-composition-1.jpg" alt="img composition 1" class="art__img art__img--1">
+                        <img src="img/img-composition-2.jpg" alt="img composition 2" class="art__img art__img--2">
+                        <img src="img/img-composition-3.jpg" alt="img composition 3" class="art__img art__img--3">
+                        <img src="img/img-composition-4.jpg" alt="img composition 4" class="art__img art__img--4">
+                        <img src="img/style.png" alt="img composition style" class="art__img-style">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION TASTY -->
+    <section class="tasty">
+        <div class="container">
+            <div class="row">
+                <div class="col tasty__content">
+                    <div class="tasty__left">
+                        <img src="img/food-img-7.jpg" class="tasty__img" alt="food img 7">
+                        <ul class="tasty__rating-list">
+                            <li class="tasty__rating-item">
+                                <svg id="rating-icon-1" class="tasty__rating-icon">
+                                    <use id="rating-use-1"  xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                </svg>
+                            </li>
+                            <li class="tasty__rating-item">
+                                <svg id="rating-icon-2" class="tasty__rating-icon">
+                                    <use id="rating-use-2" xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                </svg>
+                            </li>
+                            <li  class="tasty__rating-item">
+                                <svg id="rating-icon-3" class="tasty__rating-icon">
+                                    <use id="rating-use-3"  xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                </svg>
+                            </li>
+                            <li class="tasty__rating-item">
+                                <svg id="rating-icon-4" class="tasty__rating-icon">
+                                    <use id="rating-use-4"  xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                </svg>
+                            </li>
+                            <li  class="tasty__rating-item">
+                                <svg id="rating-icon-5" class="tasty__rating-icon">
+                                    <use id="rating-use-5"  xlink:href="img/sprite.svg#icon-star-empty"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tasty__right">
+                        <div class="tasty__right-content">
+                            <h3 class="heading-3">Tasty pancakes</h3>
+                            <div class="tasty__sub-heading">Season Favourite</div>
+                            <p class="tasty__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque deserunt minima, tempore ullam accusantium culpa aperiam doloribus molestias.</p>
+                        </div>
+                        <img src="img/mill.png" alt="img decorate 1" class="tasty__img-decorate tasty__img-decorate--1">
+
+                        <div class="tasty__slider">
+                            <div class="tasty__slide">
+                                <div class="tasty__item tasty__item--1">&nbsp;</div>
+                            </div>
+                            <div class="tasty__slide">
+                                <div class="tasty__item tasty__item--2">&nbsp;</div>
+                            </div>
+                            <div class="tasty__slide">
+                                <div class="tasty__item tasty__item--3">&nbsp;</div>
+                            </div>
+                            <div class="tasty__slide">
+                                <div class="tasty__item tasty__item--4">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <img src="img/tasty-dec.png" alt="img decorate 2" class="tasty__img-decorate tasty__img-decorate--2">
+                    
+                    <div class="small-card small-card--white tasty__card">
+                        <div class="small-card__content">
+                            <img src="img/field.png" class="small-card__img small-card__img--1 img-fluid" alt="img field">
+                            <div class="small-card__text small-card__text--top">Ready In</div>
+                            <div class="small-card__text small-card__text--middle">40</div>
+                            <div class="small-card__text small-card__text--bottom">mins</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION BREAKFAST -->
+
+    <section class="breakfast">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 breakfast__left">
+                    <div class="breakfast__heading">
+                        <h2 class="heading-2">Breakfast</h2> 
+                        <div class="breakfast__sub-heading">7AM Breakfast? We're open!</div>
+                    </div>
+                    <div class="breakfast__item">
+                        <h6 class="heading-6">Full breakfast</h6>
+                        <div class="breakfast__text">Lorem ip dolor, si amet, consectur adipi</div>
+                        <div class="breakfast__price">$12.49</div>
+                    </div>
+                    <div class="breakfast__item">
+                        <h6 class="heading-6">Toast & Jam</h6>
+                        <div class="breakfast__text">Suspendisse, tempus, nterdum</div>
+                        <div class="breakfast__price">$4.90</div>
+                    </div>
+                    <div class="breakfast__item">
+                        <h6 class="heading-6">Muffins</h6>
+                        <div class="breakfast__text">Fusce eget dui sodaletes est</div>
+                        <div class="breakfast__price">$3.95</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 breakfast__right">
+                    <div class="breakfast__card-container breakfast__card-container--1 breakfast__card-container--visible">
+                        <div class="breakfast__card">
+                            <div class="breakfast__card-data breakfast__card-data--1">
+                                <div>Est.</div>
+                                <div>1893</div>
+                            </div>
+                            <div class="breakfast__card-decor">
+                                <div class="breakfast__circle">&nbsp;</div>
+                                <div class="breakfast__line">&nbsp;</div>
+                                <div class="breakfast__circle">&nbsp;</div>
+                                <img src="img/breakfast-card-dec.png" alt="breakfast card img 1" class="breakfast__card-img breakfast__card-img--1">
+                            </div>
+                            <div class="breakfast__card-content">
+                                <h4 class="heading-4 breakfast__card-heading breakfast__card-heading--1">
+                                    <span>Your morning<span>
+                                    <span>Escape with Flair<span>
+                                </h4>
+                                <div class="breakfast__card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora accusantium saepe quaerat quas iste autem, architecto omnis fugit quis inventore.
+                                </div>
+                                <button type="button" class="button-transparent breakfast__card-button">Read</button>
+                            </div>
+                        </div>
+                        <img src="img/wheat.png" alt="breakfast card img 2" class="breakfast__card-img breakfast__card-img--2">
+                    </div>
+                    <div class="breakfast__card-container breakfast__card-container--2 breakfast__card-container--visible">
+                        <div class="breakfast__card">
+                            <div class="breakfast__card-data breakfast__card-data--2">
+                                <div>Est.</div>
+                                <div>1893</div>
+                            </div>
+                            <div class="breakfast__card-decor">
+                                <div class="breakfast__circle">&nbsp;</div>
+                                <div class="breakfast__line">&nbsp;</div>
+                                <div class="breakfast__circle">&nbsp;</div>
+                                <img src="img/breakfast-card-dec.png" alt="breakfast card img 1" class="breakfast__card-img breakfast__card-img--1">
+                            </div>
+                            <div class="breakfast__card-content">
+                                <h4 class="heading-4 breakfast__card-heading breakfast__card-heading--2">
+                                    <span>Your morning<span>
+                                    <span>Escape with Flair<span>
+                                </h4>
+                                <div class="breakfast__card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora accusantium saepe quaerat quas iste autem, architecto omnis fugit quis inventore.
+                                </div>
+                                <button type="button" class="button-transparent breakfast__card-button">Read</button>
+                            </div>
+                        </div>
+                        <img src="img/wheat.png" alt="breakfast card img 2" class="breakfast__card-img breakfast__card-img--2">
+                    </div>
+                    <div class="breakfast__card-container breakfast__card-container--3 breakfast__card-container--visible">
+                        <div class="breakfast__card">
+                            <div class="breakfast__card-data breakfast__card-data--3">
+                                <div>Est.</div>
+                                <div>1893</div>
+                            </div>
+                            <div class="breakfast__card-decor">
+                                <div class="breakfast__circle">&nbsp;</div>
+                                <div class="breakfast__line">&nbsp;</div>
+                                <div class="breakfast__circle">&nbsp;</div>
+                                <img src="img/breakfast-card-dec.png" alt="breakfast card img 1" class="breakfast__card-img breakfast__card-img--1">
+                            </div>
+                            <div class="breakfast__card-content">
+                                <h4 class="heading-4 breakfast__card-heading breakfast__card-heading--3">
+                                    <span>Your morning<span>
+                                    <span>Escape with Flair<span>
+                                </h4>
+                                <div class="breakfast__card-text">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora accusantium saepe quaerat quas iste autem, architecto omnis fugit quis inventore.
+                                </div>
+                                <button type="button" class="button-transparent breakfast__card-button">Read</button>
+                            </div>
+                        </div>
+                        <img src="img/wheat.png" alt="breakfast card img 2" class="breakfast__card-img breakfast__card-img--2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__top">
+                <div class="col footer__heading">
+                    <h3 class="heading-3 footer__header">The libarito sandwitch</h3>
+                    <div class="footer__sub-heading">The best sandwitch you're ever tasted!</div>
+                    <img src="img/mill.png" alt="footer img dec" class="footer__img-dec">
+                </div>
+            </div>
+            <div class="row footer__middle">
+                <div class="col-lg-3 col-12 footer__list">
+                    <div class="footer__list-item">
+                        <img src="img/food-img-4.jpg" alt="footer list img 1" class="footer__list-img">
+                        <h5 class="heading-5">Class aptent</h5>
+                        <p class="footer__list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quis?</p>
+                    </div>
+                    <div class="footer__list-item">
+                        <img src="img/food-img-5.jpg" alt="footer list img 2" class="footer__list-img">
+                        <h5 class="heading-5">Class aptent</h5>
+                        <p class="footer__list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum.</p>
+                    </div>
+                    <div class="footer__list-item">
+                        <img src="img/food-img-6.jpg" alt="footer list img 3" class="footer__list-img">
+                        <h5 class="heading-5">Class aptent</h5>
+                        <p class="footer__list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-12 footer__main-img">
+                    <div class="footer__image-container">
+                        <img src="img/food-img-3-lg.jpg" alt="footer main img" class="footer__image">
+                        <div class="footer__card-list">
+                            <div class="small-card small-card--transparent">
+                                <div class="small-card__content">
+                                    <div class="small-card__text small-card__text--top">PREP</div>
+                                    <div class="small-card__text small-card__text--middle">15</div>
+                                    <div class="small-card__text small-card__text--bottom">mins</div>
+                                </div>
+                            </div>
+                            <div class="small-card small-card--transparent">
+                                <div class="small-card__content">
+                                    <div class="small-card__text small-card__text--top">COOK</div>
+                                    <div class="small-card__text small-card__text--middle">35</div>
+                                    <div class="small-card__text small-card__text--bottom">mins</div>
+                                </div>
+                            </div>
+                            <div class="small-card small-card--white">
+                                <div class="small-card__content">
+                                    <img src="img/field.png" class="small-card__img small-card__img--2 img-fluid" alt="img field">
+                                    <div class="small-card__text small-card__text--top">Ready In</div>
+                                    <div class="small-card__text small-card__text--middle">50</div>
+                                    <div class="small-card__text small-card__text--bottom">mins</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="button-white footer__button">Full Recipe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer__bottom">
+                <div class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Our menu</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Gallery</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Culture</a></li>
+                    </ul>
+                    <div class="logo logo--black footer__logo">Gustoso</div>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Events</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Catering</a></li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Visit Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup">
+        <div class="popup__menu-container">
+            <div class="popup__menu">
+                <div class="popup__menu-data">
+                    <div>Est.</div>
+                    <div>1893</div>
+                </div>
+                <div class="popup__menu-decor">
+                    <div class="popup__menu-circle">&nbsp;</div>
+                    <div class="popup__menu-line">&nbsp;</div>
+                    <div class="popup__menu-circle">&nbsp;</div>
+                    <img src="img/breakfast-card-dec.png" alt="breakfast card img 1" class="popup__menu-img popup__menu-img--1">
+                </div>
+                <div class="popup__menu-content">
+                    <h2 class="heading-4 popup__menu-heading">Bakery manu</h2> 
+                    <div class="popup__menu-item">
+                        <h6 class="heading-5">Full breakfast</h6>
+                        <div class="popup__menu-text">Lorem ip dolor, si amet, consectur adipi</div>
+                        <div class="popup__menu-price">$12.49</div>
+                    </div>
+                    <div class="popup__menu-item">
+                        <h6 class="heading-5">Toast & Jam</h6>
+                        <div class="popup__menu-text">Suspendisse, tempus, nterdum</div>
+                        <div class="popup__menu-price">$4.90</div>
+                    </div>
+                    <div class="popup__menu-item">
+                        <h6 class="heading-5">Muffins</h6>
+                        <div class="popup__menu-text">Fusce eget dui sodaletes est</div>
+                        <div class="popup__menu-price">$3.95</div>
+                    </div>
+                </div>
+                <img src="img/wheat.png" alt="popup menu img" class="popup__menu-img popup__menu-img--2">
+                <div class="popup__menu-close">
+                    <i class="fa fa-solid fa-close"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20230209125551"></script>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/0394a5040c.js?_v=20230209125551" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js?_v=20230209125551" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   
+    <!-- SLICK SLIDER -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20230209125551"></script>
+
+    <!-- SCRIPT JS -->
+    <script src="js/app.min.js?_v=20230209125551"></script>
+</body>
+</html>
