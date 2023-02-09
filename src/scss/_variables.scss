@@ -1,0 +1,36 @@
+:root {
+    --color-primary: #a47d5e;
+    --color-secondary: #c9b176;
+    --color-secondary-light: #dfc691;
+    --color-white: rgb(255, 255, 255);
+    --color-black: #56534c;
+    --color-grey: #979285;
+    --color-grey-2: #d7d5ca;
+    --color-grey-light: #d7d5ca;
+    --color-grey-lighten: #f3f1e9;
+
+    // FONTS
+    --font-primary: "Proxima-Nova";
+    --font-secondary: "Alegreya";
+    --font-tertiary: "Playfair Display";
+    --font-decorate: "Scriptina";
+}
+
+// border
+$border-grey-light: 1px solid var(--color-grey-2);
+$border-grey-solid: 2px solid var(--color-grey);
+$border-primary-solid: 2px solid var(--color-primary);
+$border-grey-dashed: 1px dashed var(--color-grey);
+$border-primary-dashed: 1px dashed var(--color-primary);
+$border-dark-solid: 1px solid var(--color-black);
+
+// shadows
+$card-shadow: 0 0rem 5rem rgba(0,0,0, .4);
+$small-shadow: 0 0rem 5rem rgba(0,0,0, .1);
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 87.5em; //1400px
+$bp-large: 75em; //1200px
+$bp-medium: 62em; //992px
+$bp-small: 48em; //768px
+$bp-smallest: 36em; //576px
